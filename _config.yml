@@ -28,7 +28,7 @@ title:                 Neel Smith
 description:           Neel Smith on the web.
 
 # A shorter description for the sidebar.
-tagline:               Selected work in Classics using the [CITE architecture](http://cite-architecture.org/)
+tagline:               Selected work in Digital Classics
 
 # A list of keywords for your blog.
 keywords:              []
@@ -88,6 +88,22 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
+  - scope:
+      path: current-projects.md
+    values:
+      menu: true
+      order: 2
+  - scope:
+      path: hc.md
+    values:
+      menu: true
+      order: 3
+  - scope:
+      path: cite.md
+    values:
+      menu: true
+      order: 1
+
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
