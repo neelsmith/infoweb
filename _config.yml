@@ -89,12 +89,12 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path: current-projects.md
+      path: current-projects/index.md
     values:
       menu: true
       order: 2
   - scope:
-      path: hc.md
+      path: hc/index.md
     values:
       menu: true
       order: 3
