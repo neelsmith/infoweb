@@ -1,38 +1,13 @@
 # Config
-# ========================================================================================
-
-# IMPORTANT: Set the URL of your site.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
-# url:                   https://<username>.github.io
-
 url:                   http://neelsmith.info
-
-# IMPORTANT: Set The "base URL" of your site.
-# When your site sits in a subdirectory, set to /<name of directory>
-# (with leading /, but without the < >).
-# Use the empty string '' otherwise.
-# For GitHub project sites, this is usually the name of the project,
-# e.g. `/hydejack`.
 baseurl:               ''
-
-# Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
-
-# The title of your blog. Used in the sidebar and the browser tab.
 title:                 Neel Smith
-
-# A short description (~150 chars) of the page used for the meta description tag.
-# Can use markdown, but no more than one paragraph (enforced by `>`)
-description:           Neel Smith on the web.
-
-# A shorter description for the sidebar.
+description:           Neel Smith: selected work on the web.
 tagline:               Selected work in Digital Classics
 
 # A list of keywords for your blog.
 keywords:              []
-
 # Used by jekyll-seo-tag.
 logo:                  /assets/icons/icon.png
 
@@ -63,31 +38,29 @@ paginate:              5
 paginate_path:         /page-:num/
 
 
-# Customizaton
-# ========================================================================================
-
+# Customizaton of UI
+#
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/Venetus-A-fade.jpg
 accent_color:          rgb(79,177,186)
-
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
 theme_color:           rgb(25,55,71)
-
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
 google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
-
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font:                  Noto Sans, Helvetica, Arial, sans-serif
-
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
 font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
+
+#
 defaults:
+  ## This is the front-page menu:
   - scope:
       path: current-projects/index.md
     values:
@@ -123,24 +96,8 @@ defaults:
         type:          WebPage
 
 
-# 3rd Party Integrations
-# ----------------------------------------------------------------------------------------
-
-# Set your Google Analytics id to receive `pageview` events.
-# To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
-
-# Setting a disqus shortname will enable the comment section on
-# pages with `comments: true` in the front matter.
-# disqus:                <disqus_shortname>
-
-# Setting a tinyletter username will enable the newsletter subscription box.
-# PRO version only!
-# tinyletter:            <tinyletter_username>
-
 
 # Hydejack Settings
-# ----------------------------------------------------------------------------------------
 # These settings are specific to Hydejack.
 
 hydejack:
@@ -188,14 +145,6 @@ hydejack:
   # When enabled, no user-related data will be stored until the user gives consent.
   cookies_banner:      false
 
-  # ⚡️ DANGER ZONE ⚡️
-  # ----------------
-  # This is an _experimental_ feature.
-  # Only use if you know what Service Workers are and how they can impact your site!
-  # Coding skills highly recommended.
-  offline:
-    enabled:           false
-    cache_version:     1
 
 # Collections
 # ========================================================================================
@@ -242,37 +191,6 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 remote_theme: qwtel/hydejack@v8.1.1
-
-
-# SEO Tag
-# ---------------------------------------------------------------------------------------
-
-# Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
-# -- or --
-# webmaster_verifications:
-#   google:              <verification-id>
-#   bing:                <verification-id>
-#   alexa:               <verification-id>
-#   yandex:              <verification-id>
-
-# Used for Twitter cards
-# twitter:
-#   username:            <twitter handle>
-
-# Used for Facebook open graph
-# facebook:
-#   app_id:              <id>
-#   publisher:           <id>
-#   admins:              <id>
-
-# Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
-
 
 # Other Plugins
 # ---------------------------------------------------------------------------------------
