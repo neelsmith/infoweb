@@ -5,10 +5,10 @@ title:  Code libraries
 
 When necessary for my teaching or research, I write code.
 
+## Overview
 
 My public repositories are on [github](https://github.com/neelsmith), but for any libraries that might be useful to someone else I also publish binaries on [bintray](https://bintray.com/neelsmith/maven).
 
-## Overview
 
 - Libraries for working with citable scholarly resources:
     -  [listed by function](citelibs)
