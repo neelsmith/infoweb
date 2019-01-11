@@ -19,6 +19,6 @@ layout: page
 - [dse](../api-docs/citelibs/dse/edu/holycross/shot/dse/index.html) (version **4.2.1**)
 
 
-## Tutorials
+## Tutorials and user documentation
 
-TBA
+- [xcite](../tut/citelibs/xcite/) 
