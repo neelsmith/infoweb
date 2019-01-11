@@ -13,11 +13,13 @@ My public repositories are on [github](https://github.com/neelsmith), but for an
 - Libraries for working with citable scholarly resources:
     -  [listed by function](citelibs)
     -  [sorted by last update](citebydate)
-- Libraries for working with the ancient Greek language:
-    -  [listed by function](greeklibs)
-    -  [sorted by last update](greekbydate)
+- Libraries for working with text in ancient Greek or Latin:
+    -  [listed by function](langlibs)
+    -  [sorted by last update](langbydate)
+    -  [API documentation](api-docs/langlibs/)
 - Libraries for working with the [Homer Multitext project archive](hmtlibs)
 -  Other [utility libraries](utilslibs)
+
 
 
 ## Why Scala
