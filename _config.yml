@@ -71,17 +71,22 @@ defaults:
       path: current-projects/index.md
     values:
       menu: true
-      order: 2
+      order: 1
   - scope:
       path: hc/index.md
     values:
       menu: true
-      order: 3
+      order: 2
   - scope:
       path: cite.md
     values:
       menu: true
-      order: 1
+      order: 3
+  - scope:
+      path: hmt.md
+    values:
+      menu: true
+      order: 3
   - scope:
       path: code/index.md
     values:
