@@ -17,8 +17,8 @@ My public repositories are on [github](https://github.com/neelsmith), but for an
     -  [listed by function](langlibs)
     -  [sorted by last update](langbydate)
     -  [API documentation](api-docs/langlibs/)
-- Libraries for working with the [Homer Multitext project archive](hmtlibs)
--  Other [utility libraries](utilslibs)
+- Libraries for working with the [Homer Multitext project archive](hmtlibs/)
+-  Other [utility libraries](utilslibs/)
 
 
 
