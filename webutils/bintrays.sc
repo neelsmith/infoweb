@@ -9,7 +9,7 @@ import java.io.PrintWriter
 val citeRepoNames = Vector("xcite", "ohco2", "citeobj", "scm", "dse")
 val greekRepoNames =  Vector("greek", "gsphone")
 val hmtRepoNames =  Vector("hmt-textmodel")
-val utilRepoNames =  Vector("seqcomp")
+val utilRepoNames =  Vector("seqcomp", "btreporter")
 
 val btRepo = BintrayRepo("neelsmith", "maven")
 
