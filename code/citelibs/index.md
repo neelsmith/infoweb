@@ -21,4 +21,8 @@ layout: page
 
 ## Tutorials and user documentation
 
-- [xcite](../tut/citelibs/xcite/) 
+- [xcite](../tut/citelibs/xcite/)
+- [ohco2](../tut/citelibs/ohco2/)
+- [citeobj](../tut/citelibs/citeobj/)
+- [scm](../tut/citelibs/scm/)
+- [dse](../tut/citelibs/dse/)  

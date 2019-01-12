@@ -81,17 +81,17 @@ defaults:
       path: cite.md
     values:
       menu: true
-      order: 3
+      order: 4
   - scope:
       path: hmt.md
     values:
       menu: true
-      order: 3
+      order: 4
   - scope:
       path: code/index.md
     values:
       menu: true
-      order: 4
+      order: 3
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
