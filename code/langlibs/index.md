@@ -18,6 +18,6 @@ layout: page
 -  [`latphone`](../api-docs/langlibs/latphone/edu/holycross/shot/latin/) (version **2.0.0**)
 -  [`virgapes`](../api-docs/langlibs/virgapes/edu/holycross/shot/virgapes/) (version **4.0.0**)
 
-## Tutorials
+## Tutorials and user documentation
 
-TBA
+- [virgapes](../tut/langlibs/virgapes/)
