@@ -7,7 +7,9 @@ When necessary for my teaching or research, I write code.
 
 ## Overview
 
-My public repositories are on [github](https://github.com/neelsmith), but for any libraries that might be useful to someone else I also publish binaries on [bintray](https://bintray.com/neelsmith/maven).
+My public repositories are on [github](https://github.com/neelsmith), but for libraries that might be useful to someone else I also publish binaries on [bintray](https://bintray.com/neelsmith/maven).
+
+Pages for tutorials and end-user documentation are generated with the [tut doucmentation generator](https://github.com/tpolecat/tut), so all embedded code has executed correctly.
 
 
 - libraries for working with [citable scholarly resources](citelibs/)

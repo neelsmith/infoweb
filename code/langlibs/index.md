@@ -20,4 +20,7 @@ layout: page
 
 ## Tutorials and user documentation
 
+
+- [greek](../tut/langlibs/greek/)
+- [latphone](../tut/langlibs/latphone/)
 - [virgapes](../tut/langlibs/virgapes/)
