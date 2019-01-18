@@ -10,10 +10,9 @@ The library introduces two key concepts related to the contents of these edition
 
 ## `MidMarkupReader`
 
-Classes implementing the `MidMarkupReader` are able to convert multivalent documents into one or more individual editions.
+Classes implementing the `MidMarkupReader` trait are able to convert multivalent documents into one or more individual editions.
 
-Example:  objects of the `MidProseABReader` class can read TEI XML cited at two levels organized with TEI `div` and `ab` elements.  It is created with an `MidEditionType`.
-
+*Example*:  objects of the `MidProseABReader` class can read TEI XML with two levels of citation organized with TEI `div` and `ab` elements.  You create an `MidProseABReader` with a parameter identifying the type of edition you want to work with (an instance of a `MidEditionType`)
 
 
 ```scala
@@ -26,15 +25,15 @@ reader: edu.holycross.shot.mid.validator.MidProseABReader = MidProseABReader(Mid
 
 
 
-`MidMarkupReader`s are required to identify all the types of editions they recognize.  For the version of `MidProseABReader`, that is only the `MidDiplomaticEdition` type.
+`MidMarkupReader`s are required to identify *all* the types of editions they recognize.  For the version of `MidProseABReader` used in this tutorial, that is only the `MidDiplomaticEdition` type.
 
 
 ```scala
-scala> reader.editionTypes
+scala> reader.recognizedTypes
 res0: Vector[edu.holycross.shot.mid.validator.MidEditionType] = Vector(MidDiplomaticEdition)
 ```
 
-The reader can create a new edition from a citable node:
+The reader can create a new edition of a citable node as a string in CEX format.
 
 ```scala
 scala> import edu.holycross.shot.cite._
@@ -46,7 +45,7 @@ xml: String = <div n="1"><ab n="1">Text 1<del>.1</del><add>.2</add> version</ab>
 scala> val urn =CtsUrn("urn:cts:mid:unittests.1.xml:1.1")
 urn: edu.holycross.shot.cite.CtsUrn = urn:cts:mid:unittests.1.xml:1.1
 
-scala> reader.editedNode(xml, urn)
+scala> reader.editedNodeCex(xml, urn)
 res1: String = "urn:cts:mid:unittests.1.xml_dipl:1.1#Text 1 .1 version "
 ```
 
@@ -60,7 +59,7 @@ scala> val urn2 =CtsUrn("urn:cts:mid:unittests.2.xml:1.1")
 urn2: edu.holycross.shot.cite.CtsUrn = urn:cts:mid:unittests.2.xml:1.1
 
 scala> try {
-     |   reader.editedNode(badXml, urn2)
+     |   reader.editedNodeCex(badXml, urn2)
      | } catch {
      |   case e: Exception => println("Failed to create diplomatic edition: " + e.getMessage)
      | }
@@ -87,23 +86,36 @@ res3: Vector[edu.holycross.shot.mid.validator.MidTokenCategory] = Vector(Praenom
 
 It implements the required function determining if a code point is allowed or not.
 
-```
+```scala
+scala> val a = 'a'.toInt
+a: Int = 97
 
-val a = 'a'.toInt
-val alpha =  'α'.toInt
+scala> val alpha =  'α'.toInt
+alpha: Int = 945
 
-Latin23Alphabet.validCP(a)
-Latin23Alphabet.validCP(alpha)
+scala> Latin23Alphabet.validCP(a)
+res4: Boolean = true
 
+scala> Latin23Alphabet.validCP(alpha)
+res5: Boolean = false
 ```
 
 It also implements the required function tokenizing a `CitableNode` into a Vector of tokens.
 
-```
+```scala
+scala> import edu.holycross.shot.ohco2._
 import edu.holycross.shot.ohco2._
 
-val n = CitableNode(CtsUrn("urn:cts:omar:stoa0179.stoa001.omar:2.8.4"), "creatus Sp. Lucretius consul,")
+scala> val n = CitableNode(CtsUrn("urn:cts:omar:stoa0179.stoa001.omar:2.8.4"), "creatus Sp. Lucretius consul,")
+n: edu.holycross.shot.ohco2.CitableNode = CitableNode(urn:cts:omar:stoa0179.stoa001.omar:2.8.4,creatus Sp. Lucretius consul,)
 
-val tokens = Latin23Alphabet.tokenizeNode(n)
-println(tokens.mkString("\n"))
+scala> val tokens = Latin23Alphabet.tokenizeNode(n)
+tokens: Vector[edu.holycross.shot.mid.validator.MidToken] = Vector(MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.0,creatus,Some(LexicalToken)), MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.1,Sp.,Some(PraenomenToken)), MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.2,Lucretius,Some(LexicalToken)), MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.3,consul,Some(LexicalToken)), MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.3_0,,,Some(PunctuationToken)))
+
+scala> println(tokens.mkString("\n"))
+MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.0,creatus,Some(LexicalToken))
+MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.1,Sp.,Some(PraenomenToken))
+MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.2,Lucretius,Some(LexicalToken))
+MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.3,consul,Some(LexicalToken))
+MidToken(urn:cts:omar:stoa0179.stoa001.omar:2.8.4.3_0,,,Some(PunctuationToken))
 ```

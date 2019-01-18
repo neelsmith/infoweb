@@ -12,10 +12,10 @@ title:  Homer Multitext
 
 ## API docs
 
--  [`hmt-textmodel`](../api-docs/hmtlibs/hmt-textmodel/org/homermultitext/edmodel/)  (version **4.1.0**)
+-  [`hmt-textmodel`](../api-docs/editinglibs/hmt-textmodel/org/homermultitext/edmodel/)  (version **4.1.0**)
 
 ## Tutorials and user documentation
 
 
 -  [MID project validator](../tut/editinglibs/midvalidator/)
-- [hmt-textmodel](../tut/editinglibs/hmt-textmodel/)
+-  [hmt-textmodel](../tut/editinglibs/hmt-textmodel/)
