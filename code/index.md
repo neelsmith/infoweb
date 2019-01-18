@@ -14,7 +14,7 @@ Pages for tutorials and end-user documentation are generated with the [tut doucm
 
 - libraries for working with [citable scholarly resources](citelibs/)
 - libraries for working with text in [ancient Greek or Latin](langlibs/)
-- libraries for working with the [Homer Multitext project archive](hmtlibs/)
+- libraries for [scholarly editing projects](editinglibs/)
 - other [utility libraries](utilslibs/)
 
 
