@@ -22,5 +22,6 @@ layout: page
 
 
 - [greek](../tut/langlibs/greek/)
+- `gsphone` N/A
 - [latphone](../tut/langlibs/latphone/)
 - [virgapes](../tut/langlibs/virgapes/)

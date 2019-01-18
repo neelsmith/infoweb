@@ -12,8 +12,8 @@ layout: page
 
 ## API docs
 
-TBA
+-  [`btreporter`](../api-docs/utilslibs/btreporter/io/github/neelsmith/btreporter/index.html) (version **2.4.0**)
 
 ## Tutorials
 
-TBA
+- [btreporter](../tut/utilslibs/btreporter/)

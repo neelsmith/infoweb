@@ -15,6 +15,6 @@ title:  Homer Multitext
 
 -  [`hmt-textmodel`](../api-docs/hmtlibs/hmt-textmodel/org/homermultitext/edmodel/)  (version **4.1.0**)
 
-## Tutorials
+## Tutorials and user documentation
 
-TBA
+- [hmt-textmodel](../tut/hmtlibs/hmt-textmodel/)
