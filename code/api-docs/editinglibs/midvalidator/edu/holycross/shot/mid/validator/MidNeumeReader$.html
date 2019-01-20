@@ -145,16 +145,10 @@
         <span class="kind">package</span>
       </span>
       <span class="symbol">
-        <a title="Provides classes for validating editorial work on the Homer Multitext project." href="index.html"><span class="name">validator</span></a>
+        <a title="Provides classes for validating editorial work following HC MID conventions." href="index.html"><span class="name">validator</span></a>
       </span>
       
-      <p class="shortcomment cmt">Provides classes for validating editorial work on the Homer Multitext
-project.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work on the Homer Multitext
-project.
-See https://homermultext.github.io/ for documentation.</p><h4>Overview</h4><p>The class  Validator manages contents of an <a href="EditorsRepo.html" class="extype" name="edu.holycross.shot.mid.validator.EditorsRepo">EditorsRepo</a>, which
-can be constructucted from a string path for the root of the
-repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo(<span class="lit">"REPOROOT"</span>)
-<span class="kw">val</span> mom = Validator(repo)</pre></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
+      <p class="shortcomment cmt">Provides classes for validating editorial work following HC MID conventions.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work following HC MID conventions.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
     </li><li class="current-entities indented5">
                         <span class="separator"></span>
                         <a class="class" href="DseReporter.html" title="An object for analyzing and writing reports about the DSE relations for material on a single surface (page)."></a>
@@ -192,7 +186,7 @@ repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo
                         <a class="class" href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup."></a>
                         <a href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup.">MidNeumeReader</a>
                       </li><li class="current-entities indented5">
-                        <span class="separator"></span>
+                        <a class="object" href="MidOrthography$.html" title="Singleton object for operating on vectors of [MidToken]s."></a>
                         <a class="trait" href="MidOrthography.html" title="An orthographic system"></a>
                         <a href="MidOrthography.html" title="An orthographic system">MidOrthography</a>
                       </li><li class="current-entities indented5">
@@ -471,9 +465,9 @@ a given XML node.
 </p></div><dl class="paramcmts block"><dt class="param">n</dt><dd class="cmt"><p>Node to read.</p></dd><dt class="param">s</dt><dd class="cmt"><p>Any previously accumulated readings that subsequent
 readings should be added to.</p></dd></dl></div>
     </li><li name="edu.holycross.shot.mid.validator.MidNeumeReader#diplomatic" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
-      <a id="diplomatic(xml:String,src:edu.holycross.shot.cite.CtsUrn):String"></a><a id="diplomatic(String,CtsUrn):String"></a>
+      <a id="diplomatic(src:edu.holycross.shot.cite.CtsUrn,xml:String):String"></a><a id="diplomatic(CtsUrn,String):String"></a>
       <span class="permalink">
-      <a href="../../../../../edu/holycross/shot/mid/validator/MidNeumeReader$.html#diplomatic(xml:String,src:edu.holycross.shot.cite.CtsUrn):String" title="Permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidNeumeReader$.html#diplomatic(src:edu.holycross.shot.cite.CtsUrn,xml:String):String" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -482,11 +476,11 @@ readings should be added to.</p></dd></dl></div>
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">diplomatic</span><span class="params">(<span name="xml">xml: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="src">src: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+        <span class="name">diplomatic</span><span class="params">(<span name="src">src: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="xml">xml: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
       </span>
       
       <p class="shortcomment cmt">Generate pure diplomatic edition in CEX format.</p><div class="fullcomment"><div class="comment cmt"><p>Generate pure diplomatic edition in CEX format.
-</p></div><dl class="paramcmts block"><dt class="param">xml</dt><dd class="cmt"><p>Archival source in MID-compliant TEI.</p></dd><dt class="param">src</dt><dd class="cmt"><p>CtsUrn of archival source edition.</p></dd></dl></div>
+</p></div><dl class="paramcmts block"><dt class="param">src</dt><dd class="cmt"><p>CtsUrn of archival source edition.</p></dd><dt class="param">xml</dt><dd class="cmt"><p>Archival source in MID-compliant TEI.</p></dd></dl></div>
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">

@@ -148,13 +148,7 @@
         <span class="name">validator</span>
       </span>
       
-      <p class="shortcomment cmt">Provides classes for validating editorial work on the Homer Multitext
-project.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work on the Homer Multitext
-project.
-See https://homermultext.github.io/ for documentation.</p><h4>Overview</h4><p>The class  Validator manages contents of an <a href="EditorsRepo.html" class="extype" name="edu.holycross.shot.mid.validator.EditorsRepo">EditorsRepo</a>, which
-can be constructucted from a string path for the root of the
-repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo(<span class="lit">"REPOROOT"</span>)
-<span class="kw">val</span> mom = Validator(repo)</pre></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
+      <p class="shortcomment cmt">Provides classes for validating editorial work following HC MID conventions.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work following HC MID conventions.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
     </li><li class="current-entities indented5">
                         <span class="separator"></span>
                         <a class="class" href="DseReporter.html" title="An object for analyzing and writing reports about the DSE relations for material on a single surface (page)."></a>
@@ -192,7 +186,7 @@ repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo
                         <a class="class" href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup."></a>
                         <a href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup.">MidNeumeReader</a>
                       </li><li class="current-entities indented5">
-                        <span class="separator"></span>
+                        <a class="object" href="MidOrthography$.html" title="Singleton object for operating on vectors of [MidToken]s."></a>
                         <a class="trait" href="MidOrthography.html" title="An orthographic system"></a>
                         <a href="MidOrthography.html" title="An orthographic system">MidOrthography</a>
                       </li><li class="current-entities indented5">
@@ -279,12 +273,7 @@ repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo
       </h4>
 
       
-          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Provides classes for validating editorial work on the Homer Multitext
-project.
-See https://homermultext.github.io/ for documentation.</p><h4>Overview</h4><p>The class  Validator manages contents of an <a href="EditorsRepo.html" class="extype" name="edu.holycross.shot.mid.validator.EditorsRepo">EditorsRepo</a>, which
-can be constructucted from a string path for the root of the
-repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo(<span class="lit">"REPOROOT"</span>)
-<span class="kw">val</span> mom = Validator(repo)</pre></div><div class="toggleContainer block">
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"><p>Provides classes for validating editorial work following HC MID conventions.</p></div><div class="toggleContainer block">
           <span class="toggle">
             Linear Supertypes
           </span>
@@ -491,11 +480,11 @@ element as terminal citation unit.</p>
         <span class="kind">case class</span>
       </span>
       <span class="symbol">
-        <a title="A classified token." href="MidToken.html"><span class="name">MidToken</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="s">s: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="tokenCategory">tokenCategory: <span class="extype" name="scala.Option">Option</span>[<a href="MidTokenCategory.html" class="extype" name="edu.holycross.shot.mid.validator.MidTokenCategory">MidTokenCategory</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
+        <a title="A classified token." href="MidToken.html"><span class="name">MidToken</span></a><span class="params">(<span name="urn">urn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="string">string: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="tokenCategory">tokenCategory: <span class="extype" name="scala.Option">Option</span>[<a href="MidTokenCategory.html" class="extype" name="edu.holycross.shot.mid.validator.MidTokenCategory">MidTokenCategory</a>]</span>)</span><span class="result"> extends <span class="extype" name="scala.Product">Product</span> with <span class="extype" name="scala.Serializable">Serializable</span></span>
       </span>
       
       <p class="shortcomment cmt">A classified token.</p><div class="fullcomment"><div class="comment cmt"><p>A classified token.
-</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>Exemplar-level CtsUrn identifying the token.</p></dd><dt class="param">s</dt><dd class="cmt"><p>String value of token.</p></dd><dt class="param">tokenCategory</dt><dd class="cmt"><p><code>None</code> if string cannot
+</p></div><dl class="paramcmts block"><dt class="param">urn</dt><dd class="cmt"><p>Exemplar-level CtsUrn identifying the token.</p></dd><dt class="param">tokenCategory</dt><dd class="cmt"><p><code>None</code> if string cannot
 be analyzed; otherwise, <code>Option</code> of a
 <code>MidTokenCategory</code> recognized by an [MidOrthography]'s
 <code>tokenCategories</code> function.</p></dd></dl></div>
@@ -805,6 +794,22 @@ delimiting string in the resulting match group.</p>
       
       <p class="shortcomment cmt"> Implementation of MID model for prose texts encoded
 with terminal citation units in TEI <code>ab</code> elements.</p>
+    </li><li name="edu.holycross.shot.mid.validator.MidOrthography" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MidOrthography"></a><a id="MidOrthography:MidOrthography"></a>
+      <span class="permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/index.html#MidOrthography" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a title="Singleton object for operating on vectors of [MidToken]s." href="MidOrthography$.html"><span class="name">MidOrthography</span></a>
+      </span>
+      
+      <p class="shortcomment cmt">Singleton object for operating on vectors of [MidToken]s.</p>
     </li><li name="edu.holycross.shot.mid.validator.MidProseABReader" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="MidProseABReader"></a><a id="MidProseABReader:MidProseABReader"></a>
       <span class="permalink">

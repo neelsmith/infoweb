@@ -145,16 +145,10 @@
         <span class="kind">package</span>
       </span>
       <span class="symbol">
-        <a title="Provides classes for validating editorial work on the Homer Multitext project." href="index.html"><span class="name">validator</span></a>
+        <a title="Provides classes for validating editorial work following HC MID conventions." href="index.html"><span class="name">validator</span></a>
       </span>
       
-      <p class="shortcomment cmt">Provides classes for validating editorial work on the Homer Multitext
-project.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work on the Homer Multitext
-project.
-See https://homermultext.github.io/ for documentation.</p><h4>Overview</h4><p>The class  Validator manages contents of an <a href="EditorsRepo.html" class="extype" name="edu.holycross.shot.mid.validator.EditorsRepo">EditorsRepo</a>, which
-can be constructucted from a string path for the root of the
-repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo(<span class="lit">"REPOROOT"</span>)
-<span class="kw">val</span> mom = Validator(repo)</pre></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
+      <p class="shortcomment cmt">Provides classes for validating editorial work following HC MID conventions.</p><div class="fullcomment"><div class="comment cmt"><p>Provides classes for validating editorial work following HC MID conventions.</p></div><dl class="attributes block"> <dt>Definition Classes</dt><dd><a href="../index.html" class="extype" name="edu.holycross.shot.mid">mid</a></dd></dl></div>
     </li><li class="current-entities indented5">
                         <span class="separator"></span>
                         <a class="class" href="DseReporter.html" title="An object for analyzing and writing reports about the DSE relations for material on a single surface (page)."></a>
@@ -192,7 +186,7 @@ repository.  For example:</p><pre><span class="kw">val</span> repo = EditorsRepo
                         <a class="class" href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup."></a>
                         <a href="MidNeumeReader.html" title="Reads MID texts editing neumes in TEI markup.">MidNeumeReader</a>
                       </li><li class="current-entities indented5">
-                        <span class="separator"></span>
+                        <a class="object" href="MidOrthography$.html" title="Singleton object for operating on vectors of [MidToken]s."></a>
                         <a class="trait" href="MidOrthography.html" title="An orthographic system"></a>
                         <a href="MidOrthography.html" title="An orthographic system">MidOrthography</a>
                       </li><li class="current-entities indented5">
@@ -339,10 +333,10 @@ editions, and creating editions of specified types.</p></div><div class="toggleC
 
         <div class="values members">
               <h3>Abstract Value Members</h3>
-              <ol><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNodeCex" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
-      <a id="editedNodeCex(archival:String,srcUrn:edu.holycross.shot.cite.CtsUrn):String"></a><a id="editedNodeCex(String,CtsUrn):String"></a>
+              <ol><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNode" visbl="pub" class="indented0 " data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="editedNode(cn:edu.holycross.shot.ohco2.CitableNode):edu.holycross.shot.ohco2.CitableNode"></a><a id="editedNode(CitableNode):CitableNode"></a>
       <span class="permalink">
-      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNodeCex(archival:String,srcUrn:edu.holycross.shot.cite.CtsUrn):String" title="Permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNode(cn:edu.holycross.shot.ohco2.CitableNode):edu.holycross.shot.ohco2.CitableNode" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -351,16 +345,33 @@ editions, and creating editions of specified types.</p></div><div class="toggleC
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">editedNodeCex</span><span class="params">(<span name="archival">archival: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="srcUrn">srcUrn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+        <span class="name">editedNode</span><span class="params">(<span name="cn">cn: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>)</span><span class="result">: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>
       </span>
       
-      <p class="shortcomment cmt"> For a citable node in archival format, compose
-the CEX String for the corresponding node in
-the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p><div class="fullcomment"><div class="comment cmt"><p> For a citable node in archival format, compose
-the CEX String for the corresponding node in
-the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
-</p></div><dl class="paramcmts block"><dt class="param">archival</dt><dd class="cmt"><p>Text contents of a single citable node,
-in archival representation.</p></dd><dt class="param">srcUrn</dt><dd class="cmt"><p><code>CtsUrn</code> for the citable node.</p></dd></dl></div>
+      <p class="shortcomment cmt"> Given a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p><div class="fullcomment"><div class="comment cmt"><p> Given a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
+</p></div><dl class="paramcmts block"><dt class="param">cn</dt><dd class="cmt"><p>A single node in archival format.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNodeCex" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="editedNodeCex(cn:edu.holycross.shot.ohco2.CitableNode):String"></a><a id="editedNodeCex(CitableNode):String"></a>
+      <span class="permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNodeCex(cn:edu.holycross.shot.ohco2.CitableNode):String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">abstract </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">editedNodeCex</span><span class="params">(<span name="cn">cn: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      
+      <p class="shortcomment cmt"> Given a  citable node in archival
+format, compose the CEX String for the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p>
     </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType" visbl="pub" class="indented0 " data-isabs="true" fullComment="no" group="Ungrouped">
       <a id="editionType:edu.holycross.shot.mid.validator.MidEditionType"></a><a id="editionType:MidEditionType"></a>
       <span class="permalink">
@@ -487,10 +498,10 @@ in archival representation.</p></dd><dt class="param">srcUrn</dt><dd class="cmt"
     </span>)</span>
               
         </dd></dl></div>
-    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNodeCex" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="editedNodeCex(cn:edu.holycross.shot.ohco2.CitableNode):String"></a><a id="editedNodeCex(CitableNode):String"></a>
+    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="editedNode(cexNode:String):edu.holycross.shot.ohco2.CitableNode"></a><a id="editedNode(String):CitableNode"></a>
       <span class="permalink">
-      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNodeCex(cn:edu.holycross.shot.ohco2.CitableNode):String" title="Permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNode(cexNode:String):edu.holycross.shot.ohco2.CitableNode" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -499,10 +510,38 @@ in archival representation.</p></dd><dt class="param">srcUrn</dt><dd class="cmt"
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">editedNodeCex</span><span class="params">(<span name="cn">cn: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+        <span class="name">editedNode</span><span class="params">(<span name="cexNode">cexNode: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>
       </span>
       
+      <p class="shortcomment cmt"> For a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p><div class="fullcomment"><div class="comment cmt"><p> For a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
+</p></div><dl class="paramcmts block"><dt class="param">cexNode</dt><dd class="cmt"><p>CEX String for a single node in
+archival format.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNode" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="editedNode(srcUrn:edu.holycross.shot.cite.CtsUrn,archival:String):edu.holycross.shot.ohco2.CitableNode"></a><a id="editedNode(CtsUrn,String):CitableNode"></a>
+      <span class="permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNode(srcUrn:edu.holycross.shot.cite.CtsUrn,archival:String):edu.holycross.shot.ohco2.CitableNode" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">editedNode</span><span class="params">(<span name="srcUrn">srcUrn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="archival">archival: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="edu.holycross.shot.ohco2.CitableNode">CitableNode</span></span>
+      </span>
       
+      <p class="shortcomment cmt"> For a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p><div class="fullcomment"><div class="comment cmt"><p> For a  citable node in archival
+format, create the corresponding
+node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
+</p></div><dl class="paramcmts block"><dt class="param">srcUrn</dt><dd class="cmt"><p><code>CtsUrn</code> for the citable node.</p></dd><dt class="param">archival</dt><dd class="cmt"><p>Text contents of a single citable node,
+in archival representation.</p></dd></dl></div>
     </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNodeCex" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="editedNodeCex(cexNode:String):String"></a><a id="editedNodeCex(String):String"></a>
       <span class="permalink">
@@ -525,6 +564,47 @@ format, compose the CEX String for the corresponding
 node in the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
 </p></div><dl class="paramcmts block"><dt class="param">cexNode</dt><dd class="cmt"><p>CEX String for a single node in
 archival format.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editedNodeCex" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="editedNodeCex(srcUrn:edu.holycross.shot.cite.CtsUrn,archival:String):String"></a><a id="editedNodeCex(CtsUrn,String):String"></a>
+      <span class="permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#editedNodeCex(srcUrn:edu.holycross.shot.cite.CtsUrn,archival:String):String" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">editedNodeCex</span><span class="params">(<span name="srcUrn">srcUrn: <span class="extype" name="edu.holycross.shot.cite.CtsUrn">CtsUrn</span></span>, <span name="archival">archival: <span class="extype" name="scala.Predef.String">String</span></span>)</span><span class="result">: <span class="extype" name="scala.Predef.String">String</span></span>
+      </span>
+      
+      <p class="shortcomment cmt"> For a citable node in archival format, compose
+the CEX String for the corresponding node in
+the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.</p><div class="fullcomment"><div class="comment cmt"><p> For a citable node in archival format, compose
+the CEX String for the corresponding node in
+the edition type specified by <a href="#editionType:edu.holycross.shot.mid.validator.MidEditionType" class="extmbr" name="edu.holycross.shot.mid.validator.MidMarkupReader#editionType">editionType</a>.
+</p></div><dl class="paramcmts block"><dt class="param">srcUrn</dt><dd class="cmt"><p><code>CtsUrn</code> for the citable node.</p></dd><dt class="param">archival</dt><dd class="cmt"><p>Text contents of a single citable node,
+in archival representation.</p></dd></dl></div>
+    </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#edition" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="edition(corpus:edu.holycross.shot.ohco2.Corpus):edu.holycross.shot.ohco2.Corpus"></a><a id="edition(Corpus):Corpus"></a>
+      <span class="permalink">
+      <a href="../../../../../edu/holycross/shot/mid/validator/MidMarkupReader.html#edition(corpus:edu.holycross.shot.ohco2.Corpus):edu.holycross.shot.ohco2.Corpus" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">edition</span><span class="params">(<span name="corpus">corpus: <span class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</span></span>)</span><span class="result">: <span class="extype" name="edu.holycross.shot.ohco2.Corpus">Corpus</span></span>
+      </span>
+      
+      <p class="shortcomment cmt">Given a corpus in archival format, create a new Corpus
+of the type specified for this reader.</p><div class="fullcomment"><div class="comment cmt"><p>Given a corpus in archival format, create a new Corpus
+of the type specified for this reader.
+</p></div><dl class="paramcmts block"><dt class="param">corpus</dt><dd class="cmt"><p>A Corpus in archival format.</p></dd></dl></div>
     </li><li name="edu.holycross.shot.mid.validator.MidMarkupReader#editionCex" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="editionCex(cex:String):String"></a><a id="editionCex(String):String"></a>
       <span class="permalink">
