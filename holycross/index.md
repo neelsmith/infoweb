@@ -6,7 +6,7 @@ title: At Holy Cross
 At the College of the Holy Cross, I teach, serve as faculty advisor to the Holy Cross [Manuscripts, Inscriptions, and Documents Club](https://hcmid.github.io/),  and do a few other things, too.
 
 
-- [contact information](contact)
+- [contact information and regular schedule](contact)
 - [inclusion and diversity](inclusion)
 - [mentored scholarship](mentored)
 - some [traditional publications](print)

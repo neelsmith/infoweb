@@ -13,7 +13,7 @@ Professor and Chair, Dept. of Classics
 
 My regular schedule, Spring 2019:
 
--   [Greek 101](http://shot.holycross.edu/courses/IntroGreek/S19/), Introduction to Ancient Greek.  MWF 9:00-9:50. Stein 210.
+-   [Greek 102](http://shot.holycross.edu/courses/IntroGreek/S19/), "Introduction to Ancient Greek."  MWF 9:00-9:50. Stein 210.
 -   Tutorial, "Research in Ancient Greek Music," Friday, 11:00-12:00.
 -   [Manuscripts, Inscriptions and Documents Club](https://github.io/hcmid).  Friday, 2:00-5:00.
 
