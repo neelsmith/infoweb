@@ -45,7 +45,7 @@ xml: String = <div n="1"><ab n="1">Text 1<del>.1</del><add>.2</add> version</ab>
 scala> val urn =CtsUrn("urn:cts:mid:unittests.1.xml:1.1")
 urn: edu.holycross.shot.cite.CtsUrn = urn:cts:mid:unittests.1.xml:1.1
 
-scala> reader.editedNodeCex(xml, urn)
+scala> reader.editedNodeCex(urn, xml)
 res1: String = "urn:cts:mid:unittests.1.xml_dipl:1.1#Text 1 .1 version "
 ```
 
@@ -59,7 +59,7 @@ scala> val urn2 =CtsUrn("urn:cts:mid:unittests.2.xml:1.1")
 urn2: edu.holycross.shot.cite.CtsUrn = urn:cts:mid:unittests.2.xml:1.1
 
 scala> try {
-     |   reader.editedNodeCex(badXml, urn2)
+     |   reader.editedNodeCex(urn2, badXml)
      | } catch {
      |   case e: Exception => println("Failed to create diplomatic edition: " + e.getMessage)
      | }
