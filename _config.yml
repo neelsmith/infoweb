@@ -78,20 +78,25 @@ defaults:
       menu: true
       order: 2
   - scope:
+      path: holycross/index.md
+    values:
+      menu: true
+      order: 3
+  - scope:
       path: cite.md
     values:
       menu: true
-      order: 4
+      order: 5
   - scope:
       path: hmt.md
     values:
       menu: true
-      order: 4
+      order: 5
   - scope:
       path: code/index.md
     values:
       menu: true
-      order: 3
+      order: 4
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
