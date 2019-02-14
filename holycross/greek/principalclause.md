@@ -33,7 +33,7 @@ genitive for source, or person, you hear from, but accusative for the thing you 
 
 
 Greek sentences regularly connect the main clause of a sentence to the larger context by a conjunction (such as καί) or a particle
-(such as δέ).  Identifying how the main clause is connected to what precedes or follows will help you understand the logic of the sentence. It will also help you understand the syntax of the syntax, since you will not mistakenly interpret the conjunction or particle as
+(such as δέ).  Identifying how the main clause is connected to what precedes or follows will help you understand the logic of the sentence. It will also help you understand the syntax of the sentence, since you will not mistakenly interpret the conjunction or particle as
 coordinating parts of the same sentence.
 
 ## Next...

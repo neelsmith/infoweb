@@ -5,15 +5,13 @@ layout: page
 
 
 
-After you have translated [attributive participles](../attributiveptcpls/) with English relative clauses, you can work on
-the remaining, circumstantial participles. The rich and flexible use of participles is a distinctive feature of Greek
-that has no single counterpart in English. In general, you should **not** translate a
+After you have translated [attributive participles](../attributiveptcpls/) with English relative clauses, you can work on the remaining, circumstantial participles. The rich and flexible use of participles is a distinctive feature of Greek that has no single counterpart in English. In general, you should **not** translate a
 circumstantial participle with an English participle!
 
 >As a general rule, try to find an appropriate English secondary clause to translate Greek participles.
 
 
-Like any adjective, the participle will take not only its gender and number, but also its case from the noun it agrees with. When the participle agrees with a noun that has not syntactic relation to the rest of the syntax, they are normally in the genitive case (the
+Like any adjective, the participle will take not only its gender and number, but also its case from the noun it agrees with. When the participle agrees with a noun that has no syntactic relation to the rest of the syntax, they are normally in the genitive case (the
 “absolute” usage of the noun, the genitive absolute).
 
 
