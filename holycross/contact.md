@@ -12,7 +12,7 @@ Professor and Chair, Dept. of Classics
 
 My regular schedule, Fall 2019
 
--  Latin 213, MWF 9:00, Stein 124
+-  [Latin 213](http://shot.holycross.edu/courses/IntermediateLatin/F19/), MWF 9:00, Stein 124
 -  Latin review and practice, Wed., 2:00-3:00, Fenwick 415.
 -  [Manuscripts, Inscriptions and Documents Club](https://github.io/hcmid).  Friday, 2:00-5:00(ish), fourth floor of Fenwick.
 
