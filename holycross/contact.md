@@ -10,10 +10,6 @@ Professor and Chair, Dept. of Classics
 - email: at `holycross.edu`, for classes or personal work, user name `nsmith`;  for departmental issues, user name `classics-chair`.
 - my offical [Holy Cross web page](http://www.holycross.edu/academics/programs/classics/faculty/neel-smith)
 
-
-Coming soon:
-
-
 My regular schedule, Fall 2019
 
 -  Latin 213, MWF 9:00, Stein 124
