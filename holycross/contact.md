@@ -18,7 +18,7 @@ My regular schedule, Fall 2019
 
 Scheduled office hours in Fenwick 415
 
-- Mon., 9:00-10:00
+- Mon., 10:00-11:00
 - Tues., 11:00-12:00
 - Wed., 11:00-12:00
 

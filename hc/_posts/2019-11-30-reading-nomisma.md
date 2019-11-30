@@ -62,6 +62,9 @@ require(ocre.size > 50000)
 ```
 Of course you could download the CEX file and quickly build an `Ocre` object from that, with the parallel `OcreSource.fromFile(FILENAME)` function.
 
+## Using the `Ocre` object
+
+Following blog posts will illustrate how to use the `Ocre` object's data in ways that complement the valuable existing functions in the [OCRE web app](http://numismatics.org/ocre/).
 
 ## Jupyter notebooks
 
