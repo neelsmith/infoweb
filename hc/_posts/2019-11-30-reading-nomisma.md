@@ -68,7 +68,7 @@ Following blog posts will illustrate how to use the `Ocre` object's data in ways
 
 ## Jupyter notebooks
 
-The `jupyter` directory of the github repository includes Jupyter notebooks illustrating how to use the `nomisma` library.  You can open them in a locally notebook server, or on `mybinder.org` [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neelsmith/nomisma/master)
+The `jupyter` directory of the github repository includes Jupyter notebooks illustrating how to use the `nomisma` library.  You can open them in a notebook server locally running, or on `mybinder.org` [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neelsmith/nomisma/master)
 
 
 
