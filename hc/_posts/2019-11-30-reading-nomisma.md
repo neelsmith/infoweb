@@ -4,10 +4,7 @@ layout: post
 tags:  [coins]
 ---
 
-
-
-
-> *Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of [Linked Open Data](https://www.w3.org/DesignIssues/LinkedData.html).* (from  <http://nomisma.org>)
+  > *Nomisma.org is a collaborative project to provide stable digital representations of numismatic concepts according to the principles of [Linked Open Data](https://www.w3.org/DesignIssues/LinkedData.html).* (from  <http://nomisma.org>)
 
 Nomisma.org's collaboration has led to a growing series of LOD applications on the web, but what may be the project's most valuable contribution has sometimes been overlooked: from <http://nomisma.org/datasets>, you can download openly licensed datasets for all nomisma.org projects.  The collaborators have had to establish standard representations of numismatic data for their applications to interact, so the datasets use predictable identifiers in predictable data structures.  This opens the door to scholars interested in using the data in other ways.
 
