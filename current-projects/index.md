@@ -5,7 +5,7 @@ title: Projects I'm working on
 
 
 
-- **Ancient Roman tweeting**.  <br/>![Trajan](/assets/img/1925.172.47.obv.jpg) This project studies the state-sponsored messaging disseminated on coins across five centuries of the Roman Empire.  The fundamental data set is derived from the *Online Coins of the Roman Empire* (<http://numismatics.org/ocre/>), "a joint project of the American Numismatic Society and the Institute for the Study of the Ancient World at New York University."
+- **Ancient Roman tweeting**.  <br/>![Trajan](/assets/img/1925.172.47.obv.jpg) This project studies the state-sponsored messaging disseminated on coins across five centuries of the Roman Empire.  The fundamental data set is derived from the *Online Coins of the Roman Empire* (<http://numismatics.org/ocre/>), "a joint project of the American Numismatic Society and the Institute for the Study of the Ancient World at New York University."  See [more information](tweeting/).
 
 -  **"Social networks" in *scholia* to the *Iliad*.**  <br/>![Hairball](/assets/img/socnet-icon.png) The *scholia* to the *Iliad* illuminate the backstories and  cultural knowledge shared by the audience of the Homeric poems. This project applies social network analysis to collocations of named entities in the *scholia*.  The project uses archival data from the Homer Multitext project (<http://homermultitext.github.io/hmt-archive/>), and focuses initially on the uniquely important *scholia* of the Venetus A manuscript, now available for the first time in a complete edition.
 
