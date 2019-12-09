@@ -110,6 +110,6 @@ Apparently, the 50645 unique records include one with an empty ID value. A littl
 
 ## Summary
 
-The RDF download from November, 2019, included 51267 records.  50645 of them were unique records.  50644 of them unique, non-empty records.  The delimited text file at <https://raw.githubusercontent.com/neelsmith/nomisma/master/cex/ocre-cite-ids.cex> is a delimited text representation of those 50644 records, with IDs remapped as [documented previously at the end of this post](http://neelsmith.info/hc/2019-12-02-building-ocre-text-corpus/).
+The RDF download from November, 2019, included 51267 records.  50645 of them were unique records.  50644 of them were unique, non-empty records.  The delimited text file at <https://raw.githubusercontent.com/neelsmith/nomisma/master/cex/ocre-cite-ids.cex> is a delimited text representation of those 50644 records, with IDs remapped as [documented previously at the end of this post](http://neelsmith.info/hc/2019-12-02-building-ocre-text-corpus/).
 
 Working with downloaded versions of OCRE's RDF allows us to identify a snapshot of the data at a specific moment, and apply convenient tools to assess its structure and consistency.
