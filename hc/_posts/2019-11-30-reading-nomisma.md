@@ -51,7 +51,7 @@ require(rows.tail.size == expectedSize)
 The `nomisma` github repository includes this delimited text representation of the full OCRE dataset in the `cex` directory.  (The README includes information on the download date of the RDF the current cex file was built from.)  Loading and parsing the CEX representation is a single function and tolerably fast over a broadband internet connection:
 
 ```scala
-val ocreCex = "https://raw.githubusercontent.com/neelsmith/nomisma/master/cex/ocre-valid.cex"
+val ocreCex = "https://raw.githubusercontent.com/neelsmith/nomisma/master/cex/ocre-cite-ids.cex"
 val ocre = OcreSource.fromUrl(ocreCex)
 
 // check results:

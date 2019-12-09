@@ -4,12 +4,6 @@ title:  Libraries for scholarly editing projects
 ---
 
 
-## Summary
-
-
--  [sorted by last update](editingbydate)
-
-
 ## API docs
 
 
@@ -17,7 +11,6 @@ title:  Libraries for scholarly editing projects
 -  [`hmt-textmodel`](../api-docs/editinglibs/hmt-textmodel/org/homermultitext/edmodel/)  (version **4.1.0**)
 
 ## Tutorials and user documentation
-
 
 -  [midvalidator](../tut/editinglibs/midvalidator/)
 -  [hmt-textmodel](../tut/editinglibs/hmt-textmodel/)
