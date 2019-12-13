@@ -3,8 +3,6 @@ layout: page
 title: Ancient Roman tweeting
 ---
 
-
-
 > Abstract: I want to compare the state-sponsored messaging disseminated on coins across five centuries of the Roman Empire to modern tweeting. The fundamental data source is the *Online Coins of the Roman Empire* <http://numismatics.org/ocre/>.
 
 
@@ -26,5 +24,6 @@ I'm outlining here my preliminary work with data from the *Online Coins of the R
 
 ## Analyzing OCRE's textual corpus
 
-- Orthography and tokenization
+- Specifying orthography, with [this Jupyter notebook](https://mybinder.org/v2/gh/neelsmith/nomisma-jupyter/master?filepath=ocre%2FOcre_char_set.ipynb)  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neelsmith/nomisma-jupyter/master?filepath=ocre%2FOcre_char_set.ipynb)
+- Classified tokenization
 - Morphological parsing
