@@ -9,6 +9,9 @@ When necessary for my teaching or research, I write code.
 
 My public repositories are on [github](https://github.com/neelsmith), but for libraries that might be useful to someone else I also publish binaries on [bintray](https://bintray.com/neelsmith/maven).
 
+- see a categorized list of [libraries with current version numbers, and links to API documentation](auto/)
+
+<!--
 Pages for tutorials and end-user documentation are generated with the [tut doucmentation generator](https://github.com/tpolecat/tut), so all embedded code has executed correctly.
 
 
@@ -16,7 +19,7 @@ Pages for tutorials and end-user documentation are generated with the [tut doucm
 - libraries for working with text in [ancient Greek or Latin](langlibs/)
 - libraries for [scholarly editing projects](editinglibs/)
 - other [utility libraries](utilslibs/)
-
+-->
 
 
 ## Why Scala
