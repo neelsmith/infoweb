@@ -13,7 +13,7 @@ Professor and Chair, Dept. of Classics
 My regular schedule, Spring 2020
 
 -  [Archaeological Data Analysis](http://shot.holycross.edu/courses/ada/S20/), TTh 2:00, Fenwick 420
--  Ancient Science, TTh 9:30, Stein 124.
+-  [Ancient Science](http://shot.holycross.edu/courses/science/S20/), TTh 9:30, Stein 124.
 -  [Manuscripts, Inscriptions and Documents Club](https://github.io/hcmid).  Friday, 2:00-5:00(ish), fourth floor of Fenwick.
 
 Scheduled drop-in hours in Fenwick 415
