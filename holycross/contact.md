@@ -10,25 +10,22 @@ Professor and Chair, Dept. of Classics
 - email: at `holycross.edu`, for classes or personal work, user name `nsmith`;  for departmental issues, user name `classics-chair`.
 - my offical [Holy Cross web page](http://www.holycross.edu/academics/programs/classics/faculty/neel-smith)
 
-My regular schedule, Fall 2019
+My regular schedule, Spring 2020
 
--  [Latin 213](http://shot.holycross.edu/courses/IntermediateLatin/F19/), MWF 9:00, Stein 124
--  Latin review and practice, Wed., 2:00-3:00, Fenwick 415.
+-  [Archaeological Data Analysis](http://shot.holycross.edu/courses/ada/S20/), TTh 2:00, Fenwick 420
+-  Ancient Science, TTh 9:30, Stein 124.
 -  [Manuscripts, Inscriptions and Documents Club](https://github.io/hcmid).  Friday, 2:00-5:00(ish), fourth floor of Fenwick.
 
-Scheduled office hours in Fenwick 415
+Scheduled drop-in hours in Fenwick 415
 
-- Mon., 10:00-11:00
-- Tues., 11:00-12:00
-- Wed., 11:00-12:00
+- Wed., 11:00-1:00
+- Thurs., 11:00-12:00
+- Fri., 1:00-2:00
 
+or any time I'm in my office, or by appointment.
 
-or any time by appointment or drop in.
+Scheduled e-mail hours:
 
-Email hours (times I reguarly check e-mail):
+- I regularly check email during my scheduled drop-in hours on Wed., Thurs., and Fri., and at least once daily on Monday and Tuesday and on the weekend.
 
-- MTW:  hours offices listed above
-- Th, Fr:  10:00-11:00
-- weekends: no rigidly scheduled time, but during the semester I normally check my mail once each day.
-
-Office hours are not the only times I'm in my office, and email hours are not the only times I read email, but these are scheduled times when you can expect that I will check my inbox.
+Scheduled drop-in hours are not the only times I'm in my office, and email hours are not the only times I read email, but you can expect that I will check my inbox at those times.
