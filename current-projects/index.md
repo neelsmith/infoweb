@@ -4,10 +4,10 @@ title: Projects I'm working on
 ---
 
 
+- *latinitas* **/** *latinitates*. <br/>![Priscian](/assets/img/codsang904-p37.png) Digital text corpora allow us to think about "Latin" from a systematic, corpus-linguistic perspective. With
+ explicitly defined orthographic systems and corpus-specific morphological parsers, we can compare features of different texts to isolate more clearly what is common to Latin usage and what is distinctive to individual corpora.  See [more information](latinitas/).
 
 -  **γεωγραφία / geographia / جغرافية**.   <br/>![Hulls](/assets/img/ptol-icon.png)  The largest scientific dataset surviving from the ancient world is the record of more than 6,000 sites, including longitude-latitude locations, in Claudius Ptolemy's *Geography*.  The spatial density and precision of Ptolemy's coordinates, in Greek manuscripts and in translations and extensions of Ptolemy's work in later Arabic and Latin sources, helps us understand how these data were used by ancient and medieval scientists.  See [more information](geography/).
-
-
 
 
 - **Ancient Roman tweeting**.  <br/>![Trajan](/assets/img/1925.172.47.obv.jpg) This project studies the state-sponsored messaging disseminated on coins across five centuries of the Roman Empire.  The fundamental data set is derived from the *Online Coins of the Roman Empire* (<http://numismatics.org/ocre/>), "a joint project of the American Numismatic Society and the Institute for the Study of the Ancient World at New York University."  See [more information](tweeting/).
