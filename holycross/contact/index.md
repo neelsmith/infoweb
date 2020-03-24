@@ -16,7 +16,7 @@ I'm currently in isolation, and will not be on campus for the foreseeable future
 
 ## "Drop-in" hours
 
-- Monday-Thursday, 3:00-4:00 eastern time, you can join [this Google meet](https://meet.google.com/pma-avfd-bzj) (requires `holycross.edu` ID), or you can drop in by audio from this phone number +1 786-408-0970, plus the 9-digit PIN: 129 652 992
+- Monday-Thursday, 3:00-4:00 eastern time, you can join [this Zoom meet](https://holycross.zoom.us/j/728661510) (meeting ID 728 661 510).  If you dont' have internet access, you can [drop in by audio from your phone](drop-in/)
 - Friday, 2:00-?? eastern time:  I'll be on-line with members of the Holy Cross [Manuscripts, Inscriptions and Documents Club](http://hcmid.github.io)
 
 Or any time by appointment: just send me an email with a good subject line.
